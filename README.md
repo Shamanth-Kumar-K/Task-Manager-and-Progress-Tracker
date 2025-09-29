@@ -10,7 +10,7 @@ A simple and dynamic task manager with a built-in progress tracker and visualiza
 - **Real-Time Updates**: As you add or modify tasks, the charts and task list are dynamically updated.
 
 ## Screenshots
-![App Screenshot 1](./[screenshot1.png](https://github.com/Shamanth-Kumar-K/Task-Manager-and-Progress-Tracker/blob/main/Screenshot_29-9-2025_211457_.jpeg))
+![App Screenshot 1](./Screenshot_29-9-2025_211457_.jpeg)
 ![App Screenshot 2](./screenshot2.png)
 
 ## Technologies Used
