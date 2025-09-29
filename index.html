@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager & Progress Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Task Manager & Progress Tracker</h1>
+
+    <div class="task-form card">
+      <input type="text" id="task-input" placeholder="Enter a task" />
+      <input type="date" id="due-date" />
+      <select id="priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <!-- Status Distribution Pie Chart -->
+    <div class="status-distribution card">
+    <h2>Status Distribution</h2>
+    <canvas id="status-chart"></canvas>
+    </div>
+
+    <div class="task-summary card">
+      <div><strong>To-Do: </strong><span id="todo-count">0</span></div>
+      <div><strong>In Progress: </strong><span id="in-progress-count">0</span></div>
+      <div><strong>Completed: </strong><span id="completed-count">0</span></div>
+    </div>
+
+    <div class="task-filters">
+      <button class="filter-btn" onclick="filterTasks('All')">All</button>
+      <button class="filter-btn" onclick="filterTasks('To-Do')">To-Do</button>
+      <button class="filter-btn" onclick="filterTasks('In Progress')">In Progress</button>
+      <button class="filter-btn" onclick="filterTasks('Completed')">Completed</button>
+    </div>
+
+    <div class="task-list" id="task-list"></div>
+
+    <div class="priority-distribution card">
+      <h2>Priority Distribution</h2>
+      <canvas id="priority-chart"></canvas>
+    </div>
+
+    <div class="progress card">
+      <h2>Progress</h2>
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <p id="progress-text">0% Completed</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
