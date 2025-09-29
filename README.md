@@ -11,7 +11,7 @@ A simple and dynamic task manager with a built-in progress tracker and visualiza
 
 ## Screenshots
 ![App Screenshot 1](./Screenshot_29-9-2025_211457_.jpeg)
-![App Screenshot 2](./screenshot2.png)
+![App Screenshot 2](./Screenshot_29-9-2025_211528_.jpeg)
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
