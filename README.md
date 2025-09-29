@@ -20,4 +20,4 @@ A simple and dynamic task manager with a built-in progress tracker and visualiza
 ## How to Use
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/Shamanth-Kumar-K/Task-Manager-and-Progress_Tracker.git
